@@ -1,7 +1,6 @@
 public class Buku16 {
 
-   
-     String judul, pengarang;
+    String judul, pengarang;
     int halaman, stock, harga;
 
     
@@ -24,5 +23,15 @@ public class Buku16 {
     }
     void gantiHarga(int hrg){
         harga -= hrg;
+    }
+    public Buku16(){
+
+    }
+    public Buku16(String jud, String pg, int hal, int stock, int har){
+        judul = jud;
+        pengarang = pg;
+        halaman = hal;
+        this.stock = stock;
+        harga = har;
     }
 }
