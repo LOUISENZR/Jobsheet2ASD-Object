@@ -1,6 +1,3 @@
-/**
- * Buku16
- */
 public class Buku16 {
 
     public static void main(String[] args) {
@@ -17,10 +14,13 @@ public class Buku16 {
 
     }
     void terjual(int jml){
-        stok -= jml;
+        if (stok>0){
+          stok -= jml;  
+        }
+        
     }
     void restok(int jml){
-        stok -= jml;
+        stok += jml;
     }
     void gantiHarga(int hrg){
         harga -= hrg;
