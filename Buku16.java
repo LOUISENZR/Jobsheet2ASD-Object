@@ -1,26 +1,26 @@
 public class Buku16 {
 
-    public static void main(String[] args) {
-        String judul, pengarang;
-        int halaman, stok, harga;
+   
+     String judul, pengarang;
+    int halaman, stock, harga;
 
-    }
-    void tampilinformasi(){
+    
+    void tampilInformasi(){
         System.out.println("Judul: "+ judul);
         System.out.println("Pengarang: "+ pengarang);
         System.out.println("Halaman: "+ halaman);
-        System.out.println("Stok: "+ stok);
+        System.out.println("Stok: "+ stock);
         System.out.println("Harga: "+ harga);
 
     }
     void terjual(int jml){
-        if (stok>0){
-          stok -= jml;  
+        if (stock>0){
+          stock -= jml;  
         }
         
     }
     void restok(int jml){
-        stok += jml;
+        stock += jml;
     }
     void gantiHarga(int hrg){
         harga -= hrg;
