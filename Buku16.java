@@ -22,7 +22,7 @@ public class Buku16 {
         stock += jml;
     }
     void gantiHarga(int hrg){
-        harga -= hrg;
+        harga = hrg;
     }
     public Buku16(){
 
@@ -34,4 +34,10 @@ public class Buku16 {
         this.stock = stock;
         harga = har;
     }
+    public static void main(String[] args) {
+    Buku16 louise = new Buku16("Menara Api", "Aleccia", 289, 21, 214000);
+    louise.terjual(21);
+    louise.tampilInformasi();
+    }
+    
 }
