@@ -16,8 +16,9 @@ public class BukuMain16 {
         bk2.terjual(11);
         bk2.tampilInformasi();
 
-        Buku16 louise = new Buku16("Menara Api", "Aleccia", 289, 21, 214000);
-        louise.terjual(21);
+        Buku16 louise = new Buku16("Menara Api", "Aleccia", 289, 21, 114000);
+        louise.terjual(10);
         louise.tampilInformasi();
+        louise.hargaFinal();
     }
 }
