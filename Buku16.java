@@ -34,10 +34,5 @@ public class Buku16 {
         this.stock = stock;
         harga = har;
     }
-    public static void main(String[] args) {
-    Buku16 louise = new Buku16("Menara Api", "Aleccia", 289, 21, 214000);
-    louise.terjual(21);
-    louise.tampilInformasi();
-    }
     
 }
